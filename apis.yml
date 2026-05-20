@@ -4,6 +4,10 @@ url:
 modified: '2026-04-28'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/hologic
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hologic
   - type: Website
     url: https://www.hologic.com
 description: >-
