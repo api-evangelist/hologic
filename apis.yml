@@ -6,12 +6,16 @@ url:
 modified: '2026-04-28'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/hologic-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/hologic
   - type: LinkedIn
     url: https://www.linkedin.com/company/hologic
   - type: Website
     url: https://www.hologic.com
+  - url: https://www.hologic.com/about/newsroom
+    type: Blog
 description: >-
   Hologic develops diagnostics, surgical, and medical imaging technologies designed
   to advance women's health. Explore products and clinical resources.
