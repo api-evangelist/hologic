@@ -1,0 +1,14 @@
+{
+  "repo": "hologic",
+  "feeds": [
+    {
+      "source": "https://www.hologic.com/about/newsroom",
+      "feed_url": "https://www.hologic.com/about/newsroom",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 4
+}
