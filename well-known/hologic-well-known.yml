@@ -1,0 +1,292 @@
+generated: '2026-09-13'
+method: probed
+source: >-
+  Live anonymous GETs of the named /.well-known/ path list against every host this record
+  knows: the registrable domain and www, the UK regional site, the acquired-brand site
+  (endomag.com), the Salesforce Experience Cloud support community, the investor site, and
+  the three Unifi Connect platform hosts named in Hologic's own "Unifi Connect Platform IT
+  Information" document.
+note: >-
+  One real document was served. support.hologic.com answers /.well-known/openid-configuration
+  with a valid OpenID Connect discovery document (issuer https://support.hologic.com). That
+  host is Hologic's customer support community, built on Salesforce Experience Cloud, so the
+  OIDC surface is the Salesforce platform IdP running under Hologic's own domain and the
+  scopes_supported list is Salesforce's, not Hologic-authored. It is a real, fetchable,
+  provider-served discovery document all the same, and it is the only machine-readable
+  identity contract Hologic publishes anywhere.
+  Every other host missed. www.hologic.com and www.hologic.co.uk are Drupal/Acquia sites that
+  return a styled 404 page for every path. prod.unificonnect.com and dev.unificonnect.com are
+  Angular single-page applications whose catch-all route answers 200 with the same 2,054-byte
+  index.html for EVERY path, including a negative-control path that cannot exist — those 200s
+  are not documents and are recorded as misses.
+path_echo_control:
+  status: passed
+  note: >-
+    A negative-control path (/.well-known/hologic-negative-control-7f3ab91c.json) was issued
+    against every host. support.hologic.com returned 401 to it while returning 200 + real JSON
+    for /.well-known/openid-configuration, so the one hit is not a path-echoing artifact.
+    prod./dev.unificonnect.com returned 200 to the control, which is why every 200 on those
+    two hosts is discarded.
+hit_count: 1
+hosts:
+  - host: https://support.hologic.com
+    note: Salesforce Experience Cloud support community (support.hologic.com/s/).
+    documents:
+      - path: /.well-known/openid-configuration
+        status: 200
+        content_type: application/json;charset=UTF-8
+        file: hologic-openid-configuration.json
+      - path: /.well-known/security.txt
+        status: 401
+      - path: /.well-known/oauth-authorization-server
+        status: 401
+      - path: /.well-known/oauth-protected-resource
+        status: 401
+      - path: /.well-known/api-catalog
+        status: 401
+      - path: /.well-known/api-catalog.json
+        status: 401
+      - path: /.well-known/ai-plugin.json
+        status: 401
+      - path: /.well-known/ucp.json
+        status: 401
+      - path: /.well-known/acp.json
+        status: 401
+      - path: /.well-known/aauth-resource.json
+        status: 401
+      - path: /.well-known/apis.json
+        status: 401
+      - path: /apis.json
+        status: 401
+      - path: /apis.yml
+        status: 401
+      - path: /.well-known/agent-card.json
+        status: 401
+      - path: /.well-known/agent.json
+        status: 401
+      - path: /.well-known/hologic-negative-control-7f3ab91c.json
+        status: 401
+  - host: https://www.hologic.com
+    note: Drupal on Acquia; every miss is a styled 404 HTML page, not a soft 200.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/api-catalog.json
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/ucp.json
+        status: 404
+      - path: /.well-known/acp.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /apis.yml
+        status: 403
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/hologic-negative-control-7f3ab91c.json
+        status: 404
+  - host: https://hologic.com
+    note: 301 to www.hologic.com on every path; no document served at the apex.
+    documents:
+      - path: /.well-known/security.txt
+        status: 301
+      - path: /.well-known/openid-configuration
+        status: 301
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+      - path: /.well-known/oauth-protected-resource
+        status: 301
+      - path: /.well-known/api-catalog
+        status: 301
+      - path: /.well-known/ai-plugin.json
+        status: 301
+      - path: /.well-known/aauth-resource.json
+        status: 301
+      - path: /.well-known/apis.json
+        status: 301
+      - path: /apis.json
+        status: 301
+      - path: /.well-known/agent-card.json
+        status: 301
+      - path: /.well-known/agent.json
+        status: 301
+      - path: /.well-known/hologic-negative-control-7f3ab91c.json
+        status: 301
+  - host: https://www.hologic.co.uk
+    note: Regional Drupal site; same styled-404 behaviour as the US site.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/hologic-negative-control-7f3ab91c.json
+        status: 404
+  - host: https://www.endomag.com
+    note: Endomag, acquired by Hologic in 2024; Next.js site, 404 on every path.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/hologic-negative-control-7f3ab91c.json
+        status: 404
+  - host: https://investor.hologic.com
+    note: Q4 Inc. investor-relations platform; 301 on every path.
+    documents:
+      - path: /.well-known/security.txt
+        status: 301
+      - path: /.well-known/openid-configuration
+        status: 301
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+      - path: /.well-known/api-catalog
+        status: 301
+      - path: /.well-known/apis.json
+        status: 301
+      - path: /apis.json
+        status: 301
+      - path: /.well-known/agent-card.json
+        status: 301
+      - path: /.well-known/agent.json
+        status: 301
+      - path: /.well-known/hologic-negative-control-7f3ab91c.json
+        status: 301
+  - host: https://unificonnect.com
+    note: WordPress marketing page for the Unifi Connect remote-service platform.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/hologic-negative-control-7f3ab91c.json
+        status: 404
+  - host: https://prod.unificonnect.com
+    note: >-
+      Unifi Analytics Angular SPA. Catch-all route answers 200 with an identical 2,054-byte
+      index.html for every path INCLUDING the negative control, so no 200 here is a document.
+    soft_404_control:
+      path: /.well-known/hologic-negative-control-7f3ab91c.json
+      status: 200
+      bytes: 2054
+      verdict: catch-all
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/openid-configuration
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/api-catalog
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/apis.json
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /apis.json
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/agent-card.json
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/agent.json
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+  - host: https://dev.unificonnect.com
+    note: Non-production twin of prod.unificonnect.com; identical catch-all behaviour.
+    soft_404_control:
+      path: /.well-known/hologic-negative-control-7f3ab91c.json
+      status: 200
+      bytes: 2054
+      verdict: catch-all
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/openid-configuration
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/agent-card.json
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.
+      - path: /.well-known/agent.json
+        status: 200
+        file: null
+        note: HTML SPA shell, not a document — recorded as a miss.

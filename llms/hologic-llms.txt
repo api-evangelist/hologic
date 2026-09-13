@@ -1,0 +1,237 @@
+﻿# Hologic
+
+> Hologic, Inc. is a global medical technology company focused on women's health. Hologic develops, manufactures, and supplies diagnostic products, medical imaging systems, and GYN surgical solutions designed to detect, diagnose, and treat health conditions at every stage of a woman's life. The company is headquartered in Marlborough, Massachusetts (NASDAQ: HOLX) and operates across four primary areas: Breast Health, Diagnostic Solutions, GYN Surgical Solutions, and Skeletal Health. All products referenced on this site are FDA-cleared or CE-marked medical devices intended for use by trained healthcare professionals.
+
+Content on hologic.com is regulated under FDA medical device marketing guidelines. Product indications, clinical claims, and fair balance language must not be excerpted out of context. Pages targeting healthcare professionals (HCPs) use clinical terminology and evidence-based language; pages targeting patients use plain language framing. All recommendations and content reflect cleared indications only.
+
+## Company & Corporate
+
+- [About Hologic](https://www.hologic.com/about): Corporate overview, mission, leadership, and global commitment to advancing women's health.
+- [Hologic Newsroom](https://www.hologic.com/about/newsroom): Press releases, clinical data updates, product clearances, and women's health advocacy news.
+- [Support](https://www.hologic.com/support): Customer and technical support resources for HCPs and healthcare institutions.
+- [Support Locations](https://www.hologic.com/support/locations): Regional service and support center locator.
+- [Sustainability](https://www.hologic.com/sustainability): Hologic's ESG commitments, Global Women's Health Index, and community health access initiatives.
+
+## Breast Health Solutions
+
+Screening, imaging, biopsy, specimen analysis, surgical guidance, and AI-assisted detection for the full breast health continuum.
+
+- [3Dimensions™ Mammography System](https://www.hologic.com/hologic-products/breast-health-solutions/3dimensions-mammography-system)
+- [Selenia® Dimensions® Mammography System](https://www.hologic.com/hologic-products/breast-health-solutions/selenia-dimensions-mammography-system)
+- [Envision™ Mammography Platform](https://www.hologic.com/hologic-products/breast-health-solutions/envision-mammography-platform)
+- [I-View® Software](https://www.hologic.com/hologic-products/breast-health-solutions/i-view-software)
+- [Genius AI® Detection](https://www.hologic.com/hologic-products/breast-health-solutions/genius-ai-detection-technology)
+- [Genius AI® Detection PRO Solution](https://www.hologic.com/hologic-products/breast-health-solutions/genius-ai-detection-pro-solution)
+- [Affirm® Prone Breast Biopsy System](https://www.hologic.com/hologic-products/breast-health-solutions/affirm-prone-breast-biopsy-system)
+- [Affirm® Breast Biopsy Guidance System](https://www.hologic.com/hologic-products/breast-health-solutions/affirm-breast-biopsy-guidance-system)
+- [Affirm® Contrast Biopsy Software](https://www.hologic.com/hologic-products/breast-health/affirm-contrast-biopsy-software)
+- [Localizer™ Wire-Free Guidance](https://www.hologic.com/hologic-products/breast-health-solutions/localizer-wire-free-guidance-system)
+- [3DQuorum® Imaging Technology](https://www.hologic.com/hologic-products/breast-health-solutions/3dquorum-imaging-technology)
+- [Hologic Clarity HD® Imaging Solution](https://www.hologic.com/hologic-products/breast-health-solutions/hologic-clarity-hd-imaging-technology)
+- [TruNode® Gamma Probe](https://www.hologic.com/hologic-products/breast-health-solutions/trunode-single-use-gamma-probe-system)
+- [Trident® HD Specimen Radiography](https://www.hologic.com/hologic-products/breast-health-solutions/trident-hd-specimen-radiography-system)
+- [Eviva® Breast Biopsy System](https://www.hologic.com/hologic-products/breast-health-solutions/eviva-breast-biopsy-system)
+- [Breast Image Analytics](https://www.hologic.com/hologic-products/breast-health-solutions/image-analytics)
+- [SmartCurve® Breast Stabilization](https://www.hologic.com/hologic-products/breast-health-solutions/smartcurve-breast-stabilization-system)
+- [Breast Biopsy Markers](https://www.hologic.com/hologic-products/breast-health-solutions/breast-biopsy-markers)
+- [MammoPad® Breast Cushion](https://www.hologic.com/hologic-products/breast-health-solutions/mammopad-breast-cushion)
+- [Endomag®](https://www.hologic.com/hologic-products/breast-health-solutions/endomag-sentimag-magseed-magtrace-technologies)
+- [Breast Surgery Wires](https://www.hologic.com/hologic-products/breast-health-solutions/breast-surgery-wires)
+- [Celero® Vacuum-Assisted Breast Biopsy](https://www.hologic.com/hologic-products/breast-health-solutions/celero-vacuum-assisted-breast-biopsy-device)
+- [ATEC® Breast Biopsy System](https://www.hologic.com/hologic-products/breast-health-solutions/atec-breast-biopsy-system)
+- [SecurXchange® Workflow Solutions](https://www.hologic.com/hologic-products/breast-health-solutions/securxchange-workflow-solutions)
+- [Sertera® Breast Biopsy Device](https://www.hologic.com/hologic-products/breast-health-solutions/sertera-spring-loaded-core-breast-biopsy-device)
+- [Unifi™ Analytics](https://www.hologic.com/hologic-products/breast-health-solutions/unifi-analytics)
+- [Faxitron® Path+ Specimen Radiography](https://www.hologic.com/hologic-products/breast-health-solutions/faxitron-path-plus-specimen-radiography-system)
+- [Faxitron® Core Specimen Radiography](https://www.hologic.com/hologic-products/breast-health-solutions/faxitron-core-specimen-radiography-system)
+
+## GYN Surgical & Women's Health
+
+Minimally invasive surgical devices and diagnostic assays for gynecologic conditions including fibroids, abnormal uterine bleeding, STIs, and preterm birth risk.
+
+- [Aptima® Trichomonas vaginalis assay](https://www.hologic.com/hologic-products/gynecologic-health/aptima-trichomonas-vaginalis-assay)
+- [Aptima® Herpes Simplex 1 & 2 assay](https://www.hologic.com/hologic-products/gynecologic-health/aptima-herpes-simplex-1-2-assay)
+- [Aptima® Sexual and Vaginal Health Solutions](https://www.hologic.com/hologic-products/gynecologic-health/aptima-sexual-and-vaginal-health-solutions)
+- [MyoSure® Tissue Removal Suite](https://www.hologic.com/hologic-products/gynecologic-health/myosure-tissue-removal-suite)
+- [Omni® Hysteroscope](https://www.hologic.com/hologic-products/gynecologic-health/omni-hysteroscope)
+- [Aptima Combo 2® assay (for CT/NG)](https://www.hologic.com/hologic-products/gynecologic-health/aptima-combo-2-assay-ctng)
+- [Omni® Lok Cervical Seal](https://www.hologic.com/hologic-products/gynecologic-health/omni-lok-cervical-seal)
+- [Aquilex® Fluid Management System](https://www.hologic.com/hologic-products/gynecologic-health/aquilex-fluid-management-system)
+- [Rapid fFN®](https://www.hologic.com/hologic-products/gynecologic-health/rapid-ffn)
+- [Acessa® Laparoscopic Radiofrequency Ablation (Lap-RFA)](https://www.hologic.com/hologic-products/gynecologic-health/acessa-laparoscopic-radiofrequency-ablation-lap-rfa)
+- [NovaSure® Endometrial Ablation from Hologic](https://www.hologic.com/hologic-products/gynecologic-health/novasure-endometrial-ablation)
+- [Actim® PROM](https://www.hologic.com/hologic-products/gynecologic-health/actim-prom)
+- [Omni®4K Video System](https://www.hologic.com/hologic-products/gynecologic-health/omni4k-video-system)
+- [Fluent® Fluid Management System](https://www.hologic.com/hologic-products/gynecologic-health/fluent-fluid-management-system)
+- [Fluent® Pro Fluid Management System](https://www.hologic.com/hologic-products/gynecologic-health/fluent-pro-fluid-management-system)
+- [Autoclave](https://www.hologic.com/hologic-products/gynecologic-health/autoclave)
+
+## Diagnostic Solutions
+
+Molecular diagnostic platforms and assays for infectious disease, virology, STI detection, transplant monitoring, and respiratory illness.
+
+- [Panther® Scalable Solutions](https://www.hologic.com/hologic-products/diagnostic-solutions/panther-scalable-solutions)
+- [Aptima® Virology](https://www.hologic.com/hologic-products/diagnostic-solutions/aptima-virology)
+- [Aptima® Vaginal Health](https://www.hologic.com/hologic-products/diagnostic-solutions/aptima-vaginal-health)
+- [Aptima® HBV Quant Assay](https://www.hologic.com/hologic-products/diagnostic-solutions/aptima-hbv-quant-assay)
+- [Panther Fusion® System](https://www.hologic.com/hologic-products/diagnostic-solutions/panther-fusion-system)
+- [Hologic Respiratory Assays](https://www.hologic.com/hologic-products/diagnostic-solutions/hologic-respiratory-assays)
+- [Panther® Link](https://www.hologic.com/hologic-products/diagnostic-solutions/panther-link)
+- [Hologic Transplant Assays](https://www.hologic.com/hologic-products/diagnostic-solutions/hologic-transplant-assays)
+- [Panther® System](https://www.hologic.com/hologic-products/diagnostic-solutions/panther-system)
+- [Panther® Trax](https://www.hologic.com/hologic-products/diagnostic-solutions/panther-trax)
+- [Aptima® Mycoplasma genitalium Assay](https://www.hologic.com/hologic-products/diagnostic-solutions/aptima-mycoplasma-genitalium-assay)
+- [Tomcat®](https://www.hologic.com/hologic-products/diagnostic-solutions/tomcat)
+- [Panther Fusion® GI Bacterial Assay](https://www.hologic.com/hologic-products/diagnostic-solutions/panther-fusion-gi-bacterial-assay)
+- [Panther Fusion® GI Expanded Bacterial Assay](https://www.hologic.com/hologic-products/diagnostic-solutions/panther-fusion-gi-expanded-bacterial-assay)
+
+## Molecular Diagnostics
+
+Quantitative and qualitative molecular assays for HIV, HCV, HBV, CMV, and other viral pathogens, run on the Panther family of platforms.
+
+- [Aptima® HIV-1 Quant Dx](https://www.hologic.com/hologic-products/molecular-diagnostics/aptima-hiv-1-quant-dx)
+- [Aptima® HCV Quant Dx](https://www.hologic.com/hologic-products/molecular-diagnostics/aptima-hcv-quant-dx)
+- [Aptima® CMV Quant Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/aptima-cmv-quant-assay)
+- [Panther® Plus](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-plus)
+- [Panther Fusion® SARS-CoV-2/Flu A/B/RSV Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-fusion-sars-cov-2flu-abrsv-assay)
+- [Panther Fusion® Paraflu Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-fusion-paraflu-assay)
+- [Panther Fusion® AdV/hMPV/RV Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-fusion-advhmpvrv-assay)
+- [Panther Fusion® GBS Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-fusion-gbs-assay)
+- [Panther Fusion® Open Access®](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-fusion-open-access)
+- [Panther Fusion® Flu A/B/RSV Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-fusion-flu-abrsv-assay)
+- [Aptima® SARS-CoV-2 Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/aptima-sars-cov-2-assay)
+- [Panther Fusion® BKV Quant Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-fusion-bkv-quant-assay)
+- [Panther Fusion® EBV Quant Assay](https://www.hologic.com/hologic-products/molecular-diagnostics/panther-fusion-ebv-quant-assay)
+
+## Cytology
+
+Liquid-based and digital cytology systems for cervical cancer screening, HPV co-testing, and non-gynecological specimen analysis.
+
+- [Aptima HPV + ThinPrep Cervical Health from Hologic](https://www.hologic.com/hologic-products/cytology/aptima-hpv-thinprep-cervical-health)
+- [ThinPrep® Processors](https://www.hologic.com/hologic-products/cytology/thinprep-processors)
+- [Genius™ Digital Diagnostics System](https://www.hologic.com/hologic-products/cytology/genius-digital-diagnostics-system)
+- [ThinPrep® Genesis™ Processor](https://www.hologic.com/hologic-products/cytology/thinprep-genesis-processor)
+- [ThinPrep® 5000 Processor](https://www.hologic.com/hologic-products/cytology/thinprep-5000-processor)
+- [ThinPrep® 5000 Autoloader](https://www.hologic.com/hologic-products/cytology/thinprep-5000-autoloader)
+- [Non-Gynecological Cytology](https://www.hologic.com/hologic-products/cytology/non-gynecological-cytology)
+- [Genius® Digital Imager](https://www.hologic.com/hologic-products/cytology/genius-digital-imager)
+- [Genius® Review Station](https://www.hologic.com/hologic-products/cytology/genius-review-station)
+- [Genius® Cervical AI](https://www.hologic.com/hologic-products/cytology/genius-cervical-ai)
+- [Genius® Image Management Server (IMS)](https://www.hologic.com/hologic-products/cytology/genius-image-management-server-ims)
+
+## Specialty Surgery
+
+Advanced surgical energy and tissue management devices for general, laparoscopic, and minimally invasive surgery.
+
+- [CoolSeal® Generator](https://www.hologic.com/hologic-products/specialty-surgery/coolseal-generator)
+- [JustRight® 5mm Stapler](https://www.hologic.com/hologic-products/specialty-surgery/justright-5mm-stapler)
+- [EcoSac Tissue Retrieval System](https://www.hologic.com/hologic-products/specialty-surgery/ecosac-tissue-retrieval-system)
+- [CoolSeal® Trinity Vessel Sealer](https://www.hologic.com/hologic-products/specialty-surgery/coolseal-trinity-vessel-sealer)
+- [CoolSeal® Mini Vessel Sealer](https://www.hologic.com/hologic-products/specialty-surgery/coolseal-mini-vessel-sealer)
+- [CoolSeal® Reveal Vessel Sealer](https://www.hologic.com/hologic-products/specialty-surgery/coolseal-reveal-vessel-sealer)
+
+## Specimen Collection Devices
+
+Swabs, collection kits, and transfer tubes for use with Hologic molecular diagnostic platforms.
+
+- [Aptima® Multitest Swab](https://www.hologic.com/hologic-products/collection-devices/aptima-multitest-swab)
+- [Diagnostic Collection Devices and Transfer Tubes](https://www.hologic.com/hologic-products/collection-devices/diagnostic-collection-devices-and-transfer-tubes)
+- [RespDirect™ Collection Kit (eDLT)](https://www.hologic.com/hologic-products/collection-devices/respdirect-collection-kit)
+- [Direct Load Tube Collection Kit](https://www.hologic.com/hologic-products/collection-devices/direct-load-tube-collection-kit)
+
+## Breast & Skeletal Imaging Software
+
+Reading workstations, workflow solutions, and analytics software for breast imaging programs.
+
+- [SecurView® Breast Imaging Workstations](https://www.hologic.com/hologic-products/breast-skeletal/securview-workstations)
+
+## Oncology & Genomic Tests
+
+Genomic and molecular tests for cancer risk stratification, tissue of origin identification, and disease monitoring.
+
+- [Breast Cancer Index®](https://www.hologic.com/hologic-products/tests/breast-cancer-index)
+- [CancerTYPE ID®](https://www.hologic.com/hologic-products/tests/cancertype-id)
+- [Panther Fusion® MRSA Assay](https://www.hologic.com/hologic-products/tests/panther-fusion-mrsa-assay)
+
+## Skeletal & Extremity Imaging
+
+DXA and mini C-arm systems for bone density measurement, osteoporosis assessment, and extremity imaging.
+
+- [Fluoroscan® Insight Mini C-Arm](https://www.hologic.com/hologic-products/skeletal/fluoroscan-insight-mini-c-arm-extremities-imaging-system)
+
+## Solution Area Landing Pages
+
+High-level category hubs that introduce Hologic's solution portfolios. Useful for understanding how products are grouped by clinical area.
+
+- [Women's Health Overview](https://www.hologic.com/womens-health): Hologic's full portfolio of women's health products across imaging, diagnostics, and surgical solutions.
+- [Breast Health](https://www.hologic.com/breast-health): Complete breast health portfolio spanning screening, biopsy, surgical guidance, and AI-assisted detection.
+- [Breast Health AI Solutions](https://www.hologic.com/breast-health-AI-solutions): Hologic's AI-powered mammography solutions for radiology, including Genius AI Detection.
+- [Breast Health Continuum of Care](https://www.hologic.com/breast-health-continuum-care): Overview of Hologic's integrated approach to the full breast care continuum.
+- [Gynecological Health](https://www.hologic.com/gynecological-health): Surgical and diagnostic solutions for gynecologic conditions including fibroids, AUB, and STIs.
+- [Molecular Diagnostics](https://www.hologic.com/molecular-diagnostics): Hologic's molecular diagnostic platforms and assays for infectious disease and virology.
+- [Cytology](https://www.hologic.com/cytology): Liquid-based and digital cytology solutions for cervical cancer screening and non-GYN applications.
+- [Skeletal Health](https://www.hologic.com/skeletal-health): DXA-based bone density measurement and osteoporosis assessment solutions.
+- [Body Composition](https://www.hologic.com/body-composition): DXA-based body composition analysis for clinical and research use.
+- [Collection Devices](https://www.hologic.com/collection-devices): Specimen collection products for use with Hologic molecular diagnostic platforms.
+- [Screening Technologies](https://www.hologic.com/screening-technologies): Overview of Hologic's screening and early detection technology portfolio.
+- [Lab Technologies](https://www.hologic.com/lab-technologies): Laboratory automation and diagnostic workflow solutions.
+- [Syndromic Testing](https://www.hologic.com/syndromic-testing): Multiplex syndromic testing solutions for respiratory, GI, and other pathogen panels.
+- [Gastrointestinal (GI) Testing](https://www.hologic.com/gastrointestinal-gi-testing): Hologic's GI bacterial and expanded panel assays for enteric pathogen detection.
+- [Total Cervical Health](https://www.hologic.com/totalcervicalhealth): Integrated cervical health solutions combining cytology, HPV testing, and STI diagnostics.
+- [Surgical Solutions](https://www.hologic.com/surgical-solutions): Overview of Hologic's minimally invasive GYN surgical product portfolio.
+- [Specialty Surgery](https://www.hologic.com/specialtysurgery): Vessel sealing and surgical stapling solutions for general and laparoscopic procedures.
+- [SureCare® Service](https://www.hologic.com/surecare-service): Hologic's service and maintenance program for capital equipment.
+
+## Package Inserts & Instructions for Use (IFUs)
+
+Regulatory documentation, specimen collection instructions, and product specifications for healthcare professionals and laboratory staff. This section contains FDA-cleared device labeling — content reflects cleared indications only and must not be excerpted out of context.
+
+- [Package Inserts Hub](https://www.hologic.com/package-inserts): Index of all Hologic product package inserts, IFUs, and product specifications.
+- [Symbol Legend and Glossary](https://www.hologic.com/package-inserts/symbol-legend-and-glossary): Reference guide to regulatory symbols used on Hologic device labeling.
+- [Swab Collection Instructions – Vaginal (English)](https://www.hologic.com/package-inserts/swab-collection-instructions-vaginal-main-english): Step-by-step vaginal specimen collection instructions for use with Aptima assays.
+- [Swab Collection Instructions – Main (English)](https://www.hologic.com/package-inserts/swab-collection-instructions-main-english): General specimen collection instructions for Hologic collection devices.
+- [Swab Collection Instructions – Rectal (English)](https://www.hologic.com/package-inserts/swab-collection-instructions-rectal-main-english): Rectal specimen collection guidance for use with Aptima assays.
+- [Swab Collection Instructions – Penile (English)](https://www.hologic.com/package-inserts/swab-collection-instructions-penile-main-english): Penile specimen collection instructions for use with Aptima assays.
+- [Swab Collection Instructions – Throat (English)](https://www.hologic.com/package-inserts/swab-collection-instructions-throat-main-english): Throat specimen collection instructions for Aptima assays.
+- [Collection Instructions (Multilingual Hub)](https://www.hologic.com/collection-instructions): Hologic specimen collection instruction library with multilingual versions.
+- [Aptima Combo 2 Assay – CT/NG Package Insert](https://www.hologic.com/package-inserts/diagnostic-products/aptima-combo-2-assay-ctng): IFU for the Aptima Combo 2 assay for Chlamydia trachomatis and Neisseria gonorrhoeae detection.
+- [Rapid fFN Package Insert](https://www.hologic.com/package-inserts/diagnostic-products/rapid-ffn): IFU and reference documentation for the Rapid fFN fetal fibronectin test.
+- [Genius Digital Diagnostics System – Package Insert](https://www.hologic.com/package-inserts/diagnostic-products/genius-digital-diagnostics-system): Labeling and IFU for the Genius Digital Diagnostics System for digital cytology.
+- [3Dimensions Mammography System – Package Inserts/IFUs](https://www.hologic.com/package-inserts/breast-skeletal-health-products/3dimensions-mammography-system): IFUs and regulatory documentation for the 3Dimensions mammography platform.
+- [Selenia Dimensions – Package Inserts/IFUs](https://www.hologic.com/package-inserts/breast-skeletal-health-products/selenia-dimensions-mammography-system-package): IFUs for the Selenia Dimensions mammography system.
+- [Safety Data Sheets](https://www.hologic.com/safety-data-sheets): SDS library for Hologic reagents and chemical products used in laboratory and clinical settings.
+
+## Global Access, Sustainability & Corporate Responsibility
+
+- [Project Health Equity](https://www.hologic.com/project-health-equity): Hologic's initiative to improve health equity and access to women's health screening in underserved communities.
+- [Global Access Initiative](https://www.hologic.com/globalaccessinitiative): Programs to expand access to Hologic diagnostic and surgical technologies in low- and middle-income countries.
+- [Sustainability Report](https://www.hologic.com/sustainability): Hologic's annual sustainability report covering ESG commitments, environmental initiatives, pay equity, and community investment.
+- [Philanthropy](https://www.hologic.com/about/philanthropy): Hologic's charitable giving programs, scholarship initiatives, and community health partnerships.
+
+## Clinical Education & Scientific Resources
+
+- [Medical Education](https://www.hologic.com/medical-education): CME/CE resources, training programs, and clinical education materials for healthcare professionals.
+- [Scientific Publications – Breast Health](https://www.hologic.com/medical-education/scientific-publications-breast): Peer-reviewed publications and clinical evidence supporting Hologic breast health solutions.
+- [Scientific Publications – Skeletal Health](https://www.hologic.com/medical-education/scientific-publications-skeletal): Peer-reviewed publications and clinical evidence for Hologic DXA and skeletal health technologies.
+- [Virology Highlights](https://www.hologic.com/about/virology-highlights): Clinical and scientific updates on viral testing, transplant monitoring, and infectious disease diagnostics.
+- [Events](https://www.hologic.com/events): Hologic's calendar of medical conferences, trade shows, and scientific symposia.
+- [Innovation](https://www.hologic.com/innovation): Overview of Hologic's research and development pipeline and technology innovation initiatives.
+
+## Patient Education
+
+- [WellWoman](https://www.hologic.com/wellwoman): Patient-facing health education covering breast health, cervical health, bone density, and GYN conditions.
+- [WellWoman News & Resources](https://www.hologic.com/wellwoman/news): Patient stories, health awareness content, and educational articles for women.
+
+## Legal & Compliance
+
+- [Privacy Policy](https://www.hologic.com/privacy-policy): Hologic's data privacy policy governing how user and patient data is collected and used.
+- [Terms and Conditions](https://www.hologic.com/terms-conditions): Website terms of use and legal notices for hologic.com.
+- [Sales Terms & Conditions](https://www.hologic.com/hologic-sales-terms-conditions): Hologic's standard commercial sales terms for product orders and agreements.
+- [AdvaMed Code of Ethics](https://www.hologic.com/advamed-code-ethics): Hologic's commitment to the AdvaMed Code of Ethics on interactions with healthcare professionals.
+- [Patent Information](https://www.hologic.com/patent-information): Intellectual property and patent disclosure information for Hologic products.
+- [WEEE Compliance](https://www.hologic.com/weee-compliance): Waste Electrical and Electronic Equipment regulatory compliance documentation.
+
+## Optional
+
+- [Hologic Global Women's Health Index](https://www.hologic.com/about/newsroom/championing-billions-women-through-hologic-global-womens-health-index): World's largest annual study of women's health experiences, conducted with Gallup.
+- [Investor Relations](https://investor.hologic.com): SEC filings, earnings, and financial reporting for Hologic, Inc.

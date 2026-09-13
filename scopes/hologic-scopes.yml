@@ -1,0 +1,92 @@
+generated: '2026-09-13'
+method: probed
+source: https://support.hologic.com/.well-known/openid-configuration
+note: >-
+  These are the scopes_supported values advertised by the OpenID Connect discovery document
+  Hologic serves at support.hologic.com. IMPORTANT PROVENANCE: this is the stock Salesforce
+  Experience Cloud scope vocabulary, served under Hologic's issuer for the customer support
+  community. Hologic did not author these scope names and does not document them as an API
+  permission model; no Hologic scope reference page exists. They are recorded because the
+  document is real, fetchable and provider-served, and because it is the only OAuth scope
+  surface the company exposes. Do not read this file as a Hologic API authorization scheme.
+authorization_server: https://support.hologic.com
+platform: Salesforce Experience Cloud
+docs: null
+docs_note: No Hologic-published scope or permissions reference page exists.
+scope_count: 36
+scopes:
+  - name: openid
+    description: OpenID Connect — request an ID token for the authenticated support-community user.
+  - name: profile
+    description: Standard OIDC profile claims.
+  - name: email
+    description: Standard OIDC email claims.
+  - name: address
+    description: Standard OIDC address claim.
+  - name: phone
+    description: Standard OIDC phone claims.
+  - name: offline_access
+    description: Issue a refresh token.
+  - name: refresh_token
+    description: Salesforce alias for refresh-token issuance.
+  - name: id
+    description: Salesforce identity URL access.
+  - name: api
+    description: Salesforce platform REST/SOAP API access on behalf of the user.
+  - name: full
+    description: Full access to all data the user can reach.
+  - name: web
+    description: Access via a web-server flow session.
+  - name: lightning
+    description: Lightning Experience application access.
+  - name: visualforce
+    description: Visualforce page access.
+  - name: content
+    description: Salesforce Files/Content access.
+  - name: chatter_api
+    description: Chatter REST API access.
+  - name: chatbot_api
+    description: Einstein Bots API access.
+  - name: custom_permissions
+    description: Return the custom permissions granted to the user.
+  - name: wave_api
+    description: CRM Analytics (Wave) API access.
+  - name: eclair_api
+    description: CRM Analytics geo/map (Eclair) API access.
+  - name: pardot_api
+    description: Account Engagement (Pardot) API access.
+  - name: interaction_api
+    description: Interaction/Next-Best-Action API access.
+  - name: user_registration_api
+    description: Self-registration API for community users.
+  - name: pwdless_login_api
+    description: Passwordless login API.
+  - name: forgot_password
+    description: Password-reset API.
+  - name: scrt_api
+    description: Service Cloud real-time (messaging) API access.
+  - name: sfap_api
+    description: Salesforce AI platform API access.
+  - name: einstein_gpt_api
+    description: Einstein generative-AI API access.
+  - name: mcp_api
+    description: >-
+      Salesforce-platform MCP API scope advertised by the Experience Cloud IdP. This is a
+      Salesforce capability, NOT a Hologic-operated MCP server — no Hologic MCP endpoint was
+      found by any probe in this pass.
+  - name: cdp_api
+    description: Data Cloud (CDP) API access.
+  - name: cdp_ingest_api
+    description: Data Cloud ingestion API access.
+  - name: cdp_query_api
+    description: Data Cloud query API access.
+  - name: cdp_profile_api
+    description: Data Cloud profile API access.
+  - name: cdp_segment_api
+    description: Data Cloud segmentation API access.
+  - name: cdp_identityresolution_api
+    description: Data Cloud identity-resolution API access.
+  - name: cdp_calculated_insight_api
+    description: Data Cloud calculated-insights API access.
+  - name: data_cloud_user_claims
+    description: Data Cloud user claims in the ID token.

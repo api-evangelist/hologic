@@ -1,0 +1,23 @@
+generated: '2026-09-13'
+method: searched
+source: https://www.hologic.com/
+source_http_status: 200
+note: >-
+  Hologic publishes no pricing of any kind — no plans, no tiers, no list prices, no quotas.
+  It sells FDA-cleared and CE-marked capital medical equipment, consumables and assays through
+  a direct sales force, distributors and an authenticated ordering portal (iStore), with
+  service sold separately under the SureCare program. There is nothing behind a "contact us"
+  form here; there is no pricing page at all. plan_count: 0 is the measurement, not an omission.
+plan_count: 0
+plans: []
+pricing_page: null
+pricing_page_note: >-
+  No /pricing, /plans or equivalent exists on www.hologic.com. The commercial surfaces that do
+  exist are the authenticated iStore ordering portal and the SureCare service program
+  (https://www.hologic.com/surecare-service, HTTP 200), neither of which publishes figures.
+commercial_terms:
+  sales_terms: https://www.hologic.com/hologic-sales-terms-conditions
+  sales_terms_http_status: 200
+  website_terms: https://www.hologic.com/terms-conditions
+  website_terms_http_status: 200
+model: capital equipment, consumables and assays sold through direct sales and distribution

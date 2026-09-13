@@ -1,0 +1,66 @@
+generated: '2026-09-13'
+method: probed
+source: https://support.hologic.com/.well-known/openid-configuration
+docs: https://support.hologic.com/s/login/
+note: >-
+  Hologic publishes no public developer API and no OpenAPI document, so there are no
+  securitySchemes to derive an auth profile from. The one machine-readable identity contract
+  the company serves anywhere is the OpenID Connect discovery document at
+  support.hologic.com, fetched anonymously and saved verbatim to
+  well-known/hologic-openid-configuration.json. It governs sign-in to Hologic's customer
+  support community, not an API product. The community runs on Salesforce Experience Cloud,
+  so the endpoints and the scopes_supported list are the Salesforce platform's, served under
+  Hologic's own domain and issuer — stated here plainly so nobody reads this as a
+  Hologic-authored API authorization model.
+scope_of_this_profile: >-
+  Customer support portal sign-in (support.hologic.com). NOT an API product authorization
+  model. No developer credential, API key, or token issuance surface is published by Hologic.
+schemes:
+  - id: hologic-support-oidc
+    type: openIdConnect
+    name: Hologic Support Community (OpenID Connect)
+    issuer: https://support.hologic.com
+    openid_configuration: https://support.hologic.com/.well-known/openid-configuration
+    endpoints:
+      authorization: https://support.hologic.com/services/oauth2/authorize
+      token: https://support.hologic.com/services/oauth2/token
+      userinfo: https://support.hologic.com/services/oauth2/userinfo
+      revocation: https://support.hologic.com/services/oauth2/revoke
+      introspection: https://support.hologic.com/services/oauth2/introspect
+      registration: https://support.hologic.com/services/oauth2/register
+      end_session: https://support.hologic.com/services/auth/idp/oidc/logout
+      jwks_uri: https://support.hologic.com/id/keys
+    grant_types_supported:
+      - authorization_code
+      - refresh_token
+    response_types_supported:
+      - code
+      - token
+      - token id_token
+    pkce:
+      supported: true
+      code_challenge_methods: [S256]
+    token_endpoint_auth_methods_supported:
+      - client_secret_post
+      - client_secret_basic
+      - private_key_jwt
+    id_token_signing_alg_values_supported: [RS256]
+    dpop_signing_alg_values_supported: [RS256, RS384, RS512, ES256, ES384, ES512, EdDSA]
+    subject_types_supported: [public]
+    dynamic_client_registration:
+      supported: true
+      endpoint: https://support.hologic.com/services/oauth2/register
+      note: >-
+        Advertised in the discovery document (RFC 7591). Not exercised by this pass — the
+        pipeline does not register clients against a provider's identity server.
+    frontchannel_logout_supported: true
+    platform: Salesforce Experience Cloud
+gaps:
+  - No public API authentication documentation of any kind.
+  - No API key, personal access token, or developer credential issuance surface.
+  - >-
+    No /.well-known/oauth-authorization-server or /.well-known/oauth-protected-resource on any
+    Hologic host; support.hologic.com returns 401 for both.
+  - >-
+    Device-level integration (DICOM network services, HL7 feeds) authenticates per-site at
+    installation time and is described only in PDF conformance statements and service manuals.

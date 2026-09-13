@@ -1,0 +1,46 @@
+generated: '2026-09-13'
+method: searched
+source: >-
+  Unauthenticated queries against the public registry metadata endpoints — registry.npmjs.org,
+  pypi.org, rubygems.org, api.nuget.org (azuresearch-usnc), plus the GitHub org search and
+  Hologic's own site.
+note: >-
+  An honest zero. Hologic publishes no client libraries of any kind, in any language, on any
+  registry. This is the expected result for a medical device manufacturer whose integration
+  surface is DICOM and HL7 at the device, not an HTTP API — there is nothing for an SDK to
+  wrap. Recorded so the absence is measured rather than assumed.
+package_count: 0
+official_package_count: 0
+packages: []
+registries_probed:
+  - registry: npm
+    endpoint: https://registry.npmjs.org/-/v1/search?text=hologic
+    result: 0 matches
+  - registry: pypi
+    endpoint: https://pypi.org/pypi/hologic/json
+    result: 404
+  - registry: rubygems
+    endpoint: https://rubygems.org/api/v1/search.json?query=hologic
+    result: empty array
+  - registry: nuget
+    endpoint: https://azuresearch-usnc.nuget.org/query?q=hologic
+    result: totalHits 0
+  - registry: maven-central
+    endpoint: search.maven.org
+    result: not probed — no Java SDK is referenced anywhere in Hologic's public material
+  - registry: crates.io
+    endpoint: crates.io
+    result: not probed — no Rust SDK is referenced anywhere in Hologic's public material
+github:
+  org: https://github.com/Hologic-BSHS
+  org_description: Hologic Breast and Skeletal Health Division
+  public_repos: 12
+  first_party_libraries: 0
+  note: >-
+    All 12 public repositories in the Hologic-BSHS org are forks of third-party open-source
+    tooling used internally — allure2, gherkin, doctest, plantuml, nlohmann/json, mermaid,
+    ghdl, behave, wavedrom, uv, and COVESA vehicle_signal_specification / vss-tools. Hologic
+    publishes no source of its own there. The related org hologic-bsh holds two repos, one of
+    which is a tombstone reading "Hologic-BSH has moved to Hologic-BSHS"; hologic-it-cloud and
+    Hologic-Marlboro have zero public repos. The bare github.com/hologic handle does not
+    exist (HTTP 404) and was a dead pointer in this record until this pass.

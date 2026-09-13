@@ -1,0 +1,110 @@
+generated: '2026-09-13'
+method: searched
+source: https://www.hologic.com/end-of-life
+source_http_status: 200
+note: >-
+  Hologic has no API, so it has no API versioning or API deprecation policy. What it does have
+  is the device-industry equivalent, published openly and dated: the Hologic Imaging Product
+  Obsolescence & End-of-Life Guide, which separates End of Sale from End of Life for every
+  imaging product line and carries the year each notice was issued. For an integrator, that
+  guide is the deprecation contract — it is what tells you the DICOM interface you built
+  against is about to stop being supported. It is recorded here as the deprecation surface it
+  actually is, not stretched into an API versioning claim it is not.
+deprecation:
+  policy_published: true
+  url: https://www.hologic.com/end-of-life
+  http_status: 200
+  title: Hologic Imaging Product Obsolescence & End-of-Life Guide
+  scheme: >-
+    Two stages per product — "End of Sale" (no longer orderable) then "End of Life" (support
+    ends) — each published as a dated notice document, grouped by product family.
+  machine_readable: false
+  machine_readable_note: >-
+    HTML list of links to PDF notices. No feed, no structured dates, no Sunset/Deprecation
+    HTTP headers (there is no HTTP surface to carry them). A machine cannot diff this guide
+    between visits.
+  families_covered:
+    - Screening / Mammography
+    - Imaging Analytics (ImageChecker CAD, Cenova, MIMS)
+    - Workflow (SecurView, SecurXchange, Unifi Workspace)
+    - MRI Products (Aegis, MultiView, Sentinelle)
+    - Skeletal / Bone Density (Discovery, Horizon, Delphi, QDR, Explorer)
+    - Extremity Imaging (Fluoroscan InSight)
+    - Breast Biopsy / Surgery (MultiCare Platinum, ATEC, Eviva)
+    - Radiography (Faxitron, Trident, Contura, MammoSite)
+    - Breast Surgery (Sentimag, PERL)
+  recent_notices:
+    - notice: US Product Components End of Support Notice
+      year: 2026
+      stage: end-of-life
+      note: Appears across mammography, workflow, skeletal, extremity and breast-surgery families.
+    - notice: Trident 1
+      year: 2026
+      stage: end-of-life
+    - notice: Sentimag Gen 2
+      year: 2026
+      stage: end-of-life
+    - notice: SecurView Workstation Component
+      year: 2025
+      stage: end-of-life
+    - notice: Dimensions Windows 7
+      year: 2025
+      stage: end-of-life
+    - notice: Selenia Dimensions Avia 6000 System
+      year: 2025
+      stage: end-of-sale
+    - notice: Faxitron Path+ Specimen Radiography System
+      year: 2025
+      stage: end-of-sale
+    - notice: ImageChecker CAD and Cenova (Europe only)
+      year: 2025
+      stage: end-of-sale
+    - notice: Microsoft Windows 10
+      year: 2024
+      stage: end-of-life
+      note: Issued across mammography, skeletal and biopsy families as a platform end-of-support.
+    - notice: Discovery DXA System
+      year: 2024
+      stage: end-of-life
+    - notice: Older Versions of SecurView Software, Hardware & Components
+      year: 2023
+      stage: end-of-life
+    - notice: Unifi Workspace Workstations
+      year: 2022
+      stage: end-of-life
+versioning:
+  api_versioning_policy: false
+  note: >-
+    No API, therefore no API version scheme. Product software versions are visible across the
+    published document set (Selenia Dimensions v1.9 -> v1.12, 3Dimensions v2.0 -> v2.3,
+    SecurView v8.x -> v12.x, Advanced Workflow Manager v1.9 -> v1.11), and each version has its
+    own DICOM Conformance Statement and MDS2 form, but no policy document states a support
+    window or an upgrade cadence.
+status_page:
+  exists: false
+  probed:
+    - url: https://status.hologic.com
+      status: 0
+      note: No DNS record — connection could not be established.
+  note: >-
+    No status page anywhere. Field service and uptime are handled through the Unifi Connect
+    remote-service platform and the SureCare service program, both of which are customer
+    programs rather than a public status surface.
+sla:
+  published: false
+  note: >-
+    SureCare (https://www.hologic.com/surecare-service, HTTP 200) is Hologic's capital-equipment
+    service and maintenance program. Its terms are commercial and per-contract; no public SLA
+    document is published.
+patching:
+  published: true
+  url: https://www.hologic.com/support/usa/Breast-Skeletal-Products-Cybersecurity/Validated-Patches
+  http_status: 200
+  note: >-
+    Validated Microsoft monthly critical patch releases, published per product. This is the
+    closest thing Hologic has to a release cadence a customer can plan against.
+support:
+  url: https://www.hologic.com/support
+  http_status: 200
+  community: https://support.hologic.com/s/
+  community_http_status: 200

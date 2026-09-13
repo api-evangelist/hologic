@@ -1,0 +1,167 @@
+generated: '2026-09-13'
+method: searched
+source: >-
+  Hologic's own public document library on www.hologic.com — the DICOM Conformance Statements
+  filed under /sites/default/files/, the MDS2 form index at
+  /support/usa/Breast-Skeletal-Products-Cybersecurity/MDS2-forms, and the OpenID Connect
+  discovery document served at support.hologic.com.
+note: >-
+  Hologic is a medical device manufacturer, not an API vendor. It publishes no OpenAPI,
+  GraphQL SDL, AsyncAPI or MCP manifest, and no developer portal exists. What it DOES publish,
+  publicly and without credentials, is the contract its market actually integrates against:
+  per-product DICOM Conformance Statements (the DICOM standard's own PS3.2-prescribed
+  conformance document) and per-product MDS2 security disclosure forms. Both are PDF. A human
+  integrator can read them; a machine cannot. That is the finding, and it is recorded here
+  rather than as an absence.
+conformance:
+  - id: dicom
+    name: DICOM (NEMA PS3, ISO 12052)
+    conforms: true
+    domain_standard: true
+    market: medical imaging
+    evidence: >-
+      https://www.hologic.com/sites/default/files/2019-12/Dimensions%20v1.10%20and%203Dimensions%20v2.1%20DICOM%20Conf.%20Statement%20(MAN-05763)%20English%20Rev_001%2010-2019.pdf
+    evidence_http_status: 200
+    evidence_format: application/pdf
+    detail: >-
+      Selenia Dimensions / 3Dimensions Acquisition Workstation DICOM Conformance Statement,
+      part number MAN-05763 Rev 002, August 2019. Declares real DICOM Application Entities and
+      SOP Classes: Modality Worklist Client (Modality Worklist Information Model - FIND),
+      Modality Performed Procedure Step Client, Storage Client, Storage Commitment Client
+      (Storage Commitment Push Model), Query/Retrieve Client (Study Root Q/R Information Model
+      FIND and MOVE), Print Client and Verification (C-ECHO). Carries the DICOM-registered UID
+      root 1.2.840.10008 throughout, including Digital Mammography X-Ray Image Storage - For
+      Presentation (1.2.840.10008.5.1.4.1.1.1.2) and - For Processing
+      (1.2.840.10008.5.1.4.1.1.1.2.1), Breast Tomosynthesis Image Storage
+      (1.2.840.10008.5.1.4.1.1.13.1.3), Secondary Capture, Mammography CAD SR
+      (1.2.840.10008.5.1.4.1.1.88.50) and JPEG Lossless / JPEG 2000 transfer syntaxes.
+    machine_readable: false
+    machine_readable_note: >-
+      Published as PDF only. DICOM does not define a JSON/YAML serialization of a conformance
+      statement, but the same content is what an OpenAPI would be for a REST API — it is the
+      integration contract, and it is not fetchable as data.
+    additional_evidence:
+      - url: https://www.hologic.com/sites/default/files/2020-01/Selenia%20Dimensions-3Dimensions%20Acquisition%20Workstation%20v1.10-2.1%20DICOM%20Conformance%20Statement%20(MAN-05763)%20English%20Rev_001%2001-2019.pdf
+        status: 200
+      - url: https://www.hologic.com/sites/default/files/dimensions_1.9_and_2.0_dicom_conformance_statement_man-05338_english_rev_001_07_17.pdf
+        status: 200
+      - url: https://www.hologic.com/sites/default/files/Dimensions%201.7%20DICOM%20Conformance%20Statement.pdf
+        status: 200
+  - id: hl7
+    name: HL7 v2 messaging
+    conforms: partial
+    domain_standard: true
+    market: clinical information systems
+    evidence: >-
+      https://www.hologic.com/sites/default/files/2019-12/Dimensions%20v1.10%20and%203Dimensions%20v2.1%20DICOM%20Conf.%20Statement%20(MAN-05763)%20English%20Rev_001%2010-2019.pdf
+    evidence_http_status: 200
+    detail: >-
+      Hologic imaging and diagnostics systems interoperate with RIS/HIS/LIS over HL7 v2 in
+      the field, and the DICOM Conformance Statement describes the Modality Worklist bridge
+      that HL7 order feeds drive. No standalone, publicly downloadable HL7 interface
+      specification was located by this pass — the HL7 conformance detail sits in per-product
+      service/integration manuals that are distributed with the device rather than published.
+      Recorded as `partial` on that basis; it is a documentation gap, not a capability gap.
+    machine_readable: false
+  - id: mds2
+    name: MDS2 — Manufacturer Disclosure Statement for Medical Device Security (HIMSS/NEMA HN 1-2013 and 2019)
+    conforms: true
+    domain_standard: true
+    market: healthcare delivery organization security review
+    evidence: https://www.hologic.com/support/usa/Breast-Skeletal-Products-Cybersecurity/MDS2-forms
+    evidence_http_status: 200
+    detail: >-
+      Hologic publishes a completed MDS2 form for every Breast and Skeletal Health product —
+      36 forms are linked from the index, covering Selenia Dimensions / 3Dimensions (v1.9
+      through v1.12 / 2.3), SecurView (v8 through v12), Trident and Trident HD, Brevera,
+      Affirm Prone, Cenova, Genius AI Detection PRO (RD-05250, June 2025), Horizon/Discovery
+      Apex, Insight FD, the Faxitron line, SuperSonic Aixplorer/MACH, Advanced Workflow
+      Manager and Unifi Workspace. Each form is the HIMSS/NEMA HN 1-2013 or 2019 template
+      answered for that product, which is the healthcare industry's standard machine-comparable
+      security disclosure — delivered as PDF.
+    machine_readable: false
+  - id: oidc
+    name: OpenID Connect Discovery 1.0
+    conforms: true
+    domain_standard: false
+    evidence: https://support.hologic.com/.well-known/openid-configuration
+    evidence_http_status: 200
+    detail: >-
+      A valid OIDC discovery document is served at the RFC 8615 well-known path with issuer
+      https://support.hologic.com. Scope is the customer support community sign-in, on
+      Salesforce Experience Cloud, under Hologic's domain — see
+      authentication/hologic-authentication.yml for the provenance caveat.
+    machine_readable: true
+  - id: oauth2
+    name: OAuth 2.0 (RFC 6749)
+    conforms: true
+    domain_standard: false
+    evidence: https://support.hologic.com/.well-known/openid-configuration
+    evidence_http_status: 200
+    detail: Authorization-code and refresh-token grants advertised; token, revocation and introspection endpoints published.
+  - id: rfc7636
+    name: PKCE (RFC 7636)
+    conforms: true
+    evidence: https://support.hologic.com/.well-known/openid-configuration
+    evidence_http_status: 200
+    detail: code_challenge_methods_supported = [S256].
+  - id: rfc7591
+    name: OAuth 2.0 Dynamic Client Registration (RFC 7591)
+    conforms: true
+    evidence: https://support.hologic.com/.well-known/openid-configuration
+    evidence_http_status: 200
+    detail: registration_endpoint advertised at https://support.hologic.com/services/oauth2/register. Advertised only; not exercised.
+  - id: rfc9449
+    name: OAuth 2.0 Demonstrating Proof of Possession (DPoP, RFC 9449)
+    conforms: true
+    evidence: https://support.hologic.com/.well-known/openid-configuration
+    evidence_http_status: 200
+    detail: dpop_signing_alg_values_supported advertises RS256/384/512, ES256/384/512 and EdDSA.
+  - id: rfc9116
+    name: security.txt (RFC 9116)
+    conforms: false
+    evidence: https://www.hologic.com/.well-known/security.txt
+    evidence_http_status: 404
+    detail: >-
+      No security.txt on any Hologic host, despite a real Coordinated Vulnerability Disclosure
+      Policy with a published contact address and PGP key. Publishing an RFC 9116 file pointing
+      at /security/coordinated-vulnerability-disclosure-policy would be a one-file fix.
+  - id: rfc9457
+    name: Problem Details for HTTP APIs (RFC 9457)
+    conforms: false
+    evidence: null
+    detail: No public HTTP API, therefore no error envelope to assess. Not a deficiency.
+  - id: fhir
+    name: HL7 FHIR
+    conforms: false
+    evidence: null
+    detail: >-
+      No published FHIR server, CapabilityStatement or ImplementationGuide was found on any
+      Hologic host. Searched; genuinely absent.
+  - id: openapi
+    name: OpenAPI Specification
+    conforms: false
+    evidence: https://www.hologic.com/openapi.json
+    evidence_http_status: 404
+    detail: >-
+      No OpenAPI or Swagger document at any probed path on any Hologic-controlled host,
+      including the Unifi Connect platform hosts. See x-contract-discovery in apis.yml.
+regulatory:
+  regime: healthcare / medical devices
+  claims:
+    - name: FDA 510(k) cleared / CE marked medical devices
+      evidence: https://www.hologic.com/llms.txt
+      evidence_http_status: 200
+      detail: >-
+        Hologic's own llms.txt states "All products referenced on this site are FDA-cleared or
+        CE-marked medical devices intended for use by trained healthcare professionals."
+    - name: HIPAA-relevant security disclosure
+      evidence: https://www.hologic.com/support/usa/Breast-Skeletal-Products-Cybersecurity/MDS2-forms
+      evidence_http_status: 200
+      detail: Per-product MDS2 forms are the HIPAA security disclosure vehicle for medical devices.
+    - name: AdvaMed Code of Ethics
+      evidence: https://www.hologic.com/advamed-code-ethics
+      evidence_http_status: 200
+    - name: WEEE compliance
+      evidence: https://www.hologic.com/weee-compliance
+      evidence_http_status: 200
