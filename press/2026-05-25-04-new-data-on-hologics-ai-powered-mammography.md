@@ -1,7 +1,9 @@
 ---
 title: New Data on Hologic's AI-Powered Mammography ...
 url: https://www.hologic.com/about/press-release/new-data-hologics-ai-powered-mammography-technology-be-presented-eusobi
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hologic" press release artificial intelligence'
 position: 4
 source: serpapi-google

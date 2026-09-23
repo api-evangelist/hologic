@@ -1,7 +1,9 @@
 ---
 title: 'Hologic: AI-powered cervical cancer screening for all'
 url: https://www.slalom.com/us/en/customer-stories/using-ai-to-advance-cervical-cancer-screening-for-all
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hologic" press release artificial intelligence'
 position: 5
 source: serpapi-google

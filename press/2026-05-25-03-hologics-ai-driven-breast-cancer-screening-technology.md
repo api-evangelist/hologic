@@ -1,7 +1,9 @@
 ---
 title: Hologic's AI-Driven Breast Cancer Screening Technology ...
 url: https://www.hologic.com/about/press-release/hologics-ai-driven-breast-cancer-screening-technology-earns-medtech
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hologic" press release artificial intelligence'
 position: 3
 source: serpapi-google

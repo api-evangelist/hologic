@@ -1,7 +1,9 @@
 ---
 title: New Evidence Backs Hologic's AI-Powered Mammography ...
 url: https://www.hologic.com/about/press-release/new-evidence-backs-hologics-ai-powered-mammography-technology-detecting
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hologic" press release artificial intelligence'
 position: 2
 source: serpapi-google
