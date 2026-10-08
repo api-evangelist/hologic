@@ -53,6 +53,8 @@ accessModel:
   method: derived
 apis: []
 common:
+  - type: Plans
+    url: plans/hologic-plans-pricing.yml
   - type: Website
     url: https://www.hologic.com
   - type: Support
