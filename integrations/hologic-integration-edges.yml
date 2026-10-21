@@ -94,6 +94,288 @@ edges:
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   detected_by: sweep-medical-imaging-ihe.py
   first_seen: '2026-10-20'
+- partner_name: FDA 510(k) premarket notifications (IVD / surgical panels)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253634
+  category: FDA-cleared IVD / surgical device
+  contract_reference:
+    register: openFDA device/510k (decision_date >= 2016-01-01; panels CH HE IM MI PA TX SU OR)
+    standard: FDA 510(k) premarket clearance (IVD / surgical panels)
+    spec_file: null
+    role: fda-510k-holder
+    registered_name: Hologic, Inc.
+    matched_domain: hologic.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    register_id: K253634
+    certified_products:
+    - product: FDA 510(k) clearance, Immunology panel
+      product_type: Immunology
+      review_panel: IM
+      lapsed: false
+      latest_decision: '2023-11-06'
+      devices_sample:
+      - Aptima Trichomonas vaginalis Assay
+    - product: FDA 510(k) clearance, Microbiology panel
+      product_type: Microbiology
+      review_panel: MI
+      lapsed: false
+      latest_decision: '2025-09-25'
+      devices_sample:
+      - Aptima BV Assay
+      - Aptima BV Assay; Aptima CV/TV Assay
+      - Aptima CMV Quant Assay
+      - Aptima CV/TV Assay
+      - Aptima Combo 2 Assay (250 test kit) Panther, Aptima Combo 2 Assay (250 test kit) Tigris, Aptima Trichomonas
+        Vaginalis Assay (250 test kit) Panther, Aptima Trichomonas Vaginalis Assay (250 test kit) Tigris
+    - product: FDA 510(k) clearance, Pathology panel
+      product_type: Pathology
+      review_panel: PA
+      lapsed: false
+      latest_decision: '2024-01-31'
+      devices_sample:
+      - "\x93Genius\x99 Digital Diagnostics System with the Genius\x99 Cervical AI algorithm\x94"
+    - product: FDA 510(k) clearance, General & Plastic Surgery panel
+      product_type: General & Plastic Surgery
+      review_panel: SU
+      lapsed: false
+      latest_decision: '2026-06-17'
+      devices_sample:
+      - CoolSeal Generator® (CSL-200-90)
+    signal_note: certified_products = one entry per FDA review PANEL held, never per device; openFDA carries decisions,
+      not withdrawals, so lapsed is always false
+    identity: wikidata Q5884072 'Hologic' P856 https://www.hologic.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: FDA premarket approval (IVD / surgical panels)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P920048
+  category: FDA PMA-approved IVD / surgical device
+  contract_reference:
+    register: openFDA device/pma (decision_date >= 2016-01-01; panels CH HE IM MI PA TX SU OR)
+    standard: FDA premarket approval (IVD / surgical panels)
+    spec_file: null
+    role: fda-pma-holder
+    registered_name: Hologic, Inc.
+    matched_domain: hologic.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    register_id: P920048
+    certified_products:
+    - product: FDA PMA approval, Clinical Chemistry panel
+      product_type: Clinical Chemistry
+      review_panel: CH
+      lapsed: false
+      latest_decision: '2016-02-05'
+      devices_sample:
+      - RAPID FFN FOR THE TLIIQ SYSTEM
+    - product: FDA PMA approval, Microbiology panel
+      product_type: Microbiology
+      review_panel: MI
+      lapsed: false
+      latest_decision: '2025-10-07'
+      devices_sample:
+      - APTIMA HCV QUANT DX ASSAY
+      - APTIMA HCV Quant Dx Assay
+      - Aptima CMV Quant Assay
+      - Aptima HBV Quant Assay
+      - Aptima HBV Quant Assay Kit, 100T; Aptima HBV Quant Calibrator Kit; Aptima HBV Quant Controls Kit; Aptima
+        HBV Quant Targe
+    - product: FDA PMA approval, Pathology panel
+      product_type: Pathology
+      review_panel: PA
+      lapsed: false
+      latest_decision: '2025-08-27'
+      devices_sample:
+      - THINPREP PROCESSOR,
+      - THINPREP PROCESSORS
+      - ThinPrep 5000 Processor
+      - ThinPrep Genesis Processor
+      - ThinPrep Integrated Imager
+    - product: FDA PMA approval, Toxicology panel
+      product_type: Toxicology
+      review_panel: TX
+      lapsed: false
+      latest_decision: '2026-08-26'
+      devices_sample:
+      - Rapid fFN Cassette Kit for the TLiIQ System, Rapid fFN Control for the TLiIQ System
+      - Rapid fFN for the TLiIQ System
+      - Rapid fFN for the TLiIQ System, Fetal Fibronectin Enzyme Immunoassay
+      - Rapid fFN for the TLilQ System
+      - TLiIQ QCette
+    signal_note: certified_products = one entry per FDA review PANEL with a PMA decision (original or supplement),
+      never per device; lapsed always false (decisions, not withdrawals)
+    identity: wikidata Q5884072 'Hologic' P856 https://www.hologic.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: FDA establishment registration and device listing (IVD / surgical specialties)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm
+  category: FDA-registered device establishment
+  contract_reference:
+    register: openFDA device/registrationlisting (owner/operator, device listings by medical specialty)
+    standard: FDA establishment registration and device listing (21 CFR 807)
+    spec_file: null
+    role: fda-registered-owner-operator
+    registered_name: HOLOGIC, INC.
+    matched_domain: hologic.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    listed_specialties:
+    - Clinical Chemistry
+    - Hematology
+    - Immunology
+    - Microbiology
+    - Pathology
+    - General & Plastic Surgery
+    signal_note: 'REGULATED through the establishment registration: a registration is not a clearance, so no certified_products;
+      specialties are context, never counted'
+    identity: wikidata Q5884072 'Hologic' P856 https://www.hologic.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: FDA CLIA test categorizations
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfClia/search.cfm
+  category: CLIA-categorized test system maker
+  contract_reference:
+    register: FDA CLIA test categorization database (clia_detail.zip)
+    standard: FDA CLIA categorization
+    spec_file: null
+    role: clia-categorized-test-system-maker
+    registered_name: Hologic
+    matched_domain: hologic.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    register_id: CR250393
+    certified_products:
+    - product: FDA CLIA categorization, high complexity
+      product_type: high
+      lapsed: false
+      latest_effective: 2025/09/11
+      test_systems_sample:
+      - Hologic Inc, Panther Fusion System
+      - Hologic, Inc, Panther System
+      - Hologic, Inc. Aptima HIV-1 Quant Assay, Panther System
+      - Hologic, Inc. Panther System
+    - product: FDA CLIA categorization, moderate complexity
+      product_type: moderate
+      lapsed: false
+      latest_effective: 2025/10/08
+      test_systems_sample:
+      - Hologic Inc, Panther Fusion System
+      - Hologic, Inc, Panther System
+      - Hologic, Inc., Panther Fusion System
+    signal_note: 'certified_products = one entry per CLIA COMPLEXITY held (waived / moderate / high), never per
+      test system; the database lists categorizations, not withdrawals: lapsed false'
+    identity: wikidata Q5884072 'Hologic' P856 https://www.hologic.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: EUDAMED (EU IVDR manufacturers)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://ec.europa.eu/tools/eudamed/#/screen/search-eo/8122158f-9283-40fc-a3ef-75b8dc4b449f
+  category: EU IVDR-registered manufacturer
+  contract_reference:
+    register: EUDAMED public API (UDI-DI data, applicable legislation IVDR; actor public information)
+    standard: EU IVDR (Regulation (EU) 2017/746) manufacturer + UDI registration
+    spec_file: null
+    role: eudamed-ivdr-manufacturer
+    registered_name: Hologic
+    matched_domain: hologic.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    register_id: US-MF-000001677
+    register_country: US
+    actor_status: active
+    domain_from: registered e-mail domain
+    trade_names_sample:
+    - The ThinPrep Pap Test Filters
+    - ThinPrep Arcless Microscope Slides
+    - ThinPrep Filters
+    - ThinPrep Imaging System Microscope Slides
+    - ThinPrep Pap Test Microscope Slides
+    certified_products:
+    - product: EU IVDR device registration, class A
+      product_type: IVDR class A
+      lapsed: false
+      statuses:
+      - on-the-market
+    - product: EU IVDR device registration, class B
+      product_type: IVDR class B
+      lapsed: false
+      statuses:
+      - on-the-market
+    - product: EU IVDR device registration, class C
+      product_type: IVDR class C
+      lapsed: false
+      statuses:
+      - on-the-market
+    - product: EU IVDR device registration, class D
+      product_type: IVDR class D
+      lapsed: false
+      statuses:
+      - on-the-market
+    signal_note: 'certified_products = one entry per IVDR RISK CLASS with registered devices, never per device;
+      lapsed when no device of that class is on the market. Self-filed actor registration: domain + name check +
+      country agreement, hand-reviewed'
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: AdvaMedDx (members)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.advamed.org/advameddx/members/
+  category: Diagnostics trade body member
+  contract_reference:
+    register: AdvaMedDx member list (advamed.org/advameddx/members)
+    standard: null
+    spec_file: null
+    role: advameddx-member
+    registered_name: Hologic, Inc.
+    matched_domain: hologic.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    listed_website: https://www.hologic.com
+    signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
 generated: '2026-10-18'
 method: searched
 source:
@@ -104,3 +386,9 @@ checked:
 - https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices
 - https://connectathon-results.ihe.net/custom-search/
 - https://product-registry.ihe.net/
+- https://api.fda.gov/device/510k.json
+- https://api.fda.gov/device/pma.json
+- https://api.fda.gov/device/registrationlisting.json
+- https://ec.europa.eu/tools/eudamed/api/
+- https://www.accessdata.fda.gov/premarket/ftparea/clia_detail.zip
+- https://www.advamed.org/advameddx/members/
