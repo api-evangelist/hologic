@@ -478,6 +478,54 @@ edges:
     detected: '2026-10-22'
   detected_by: sweep-vulnerability-disclosure-cna.py
   first_seen: '2026-10-22'
+- partner_name: FDA establishment registration and device listing (radiology / cardiovascular / robotic surgery)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm
+  category: FDA-registered device establishment
+  contract_reference:
+    register: openFDA device/registrationlisting (owner/operator; specialties Radiology + Cardiovascular, product
+      code NAY)
+    standard: FDA establishment registration and device listing (21 CFR 807)
+    spec_file: null
+    role: fda-registered-owner-operator
+    registered_name: HOLOGIC, INC.
+    matched_domain: hologic.com
+    matched_by: domain
+    detected_by: sweep-fda-device-establishment-registrations.py
+    detected: '2026-10-23'
+    listed_specialties:
+    - Radiology
+    specialty_tags:
+    - nuclear-medicine
+    - radiology
+    owner_country: US
+    fei_sample:
+    - '1000120743'
+    - '1221855'
+    - '2024800'
+    product_codes_sample:
+    - NEU
+    - HIH
+    - OOI
+    - IZH
+    - GEI
+    - HIG
+    - NSU
+    - LSL
+    nuclear_medicine_codes:
+    - IZD (Probe, Uptake, Nuclear, 21 CFR 892.1320)
+    signal_note: 'REGULATED through the establishment registration: a registration is not a clearance, so no certified_products;
+      specialties / product codes are context, never counted. Complements ivd-diagnostics'' registration edge (eight
+      other specialties)'
+    identity: wikidata Q5884072 'Hologic' P856 https://www.hologic.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-fda-device-establishment-registrations.py
+  first_seen: '2026-10-23'
 generated: '2026-10-18'
 method: searched
 source:
@@ -499,3 +547,4 @@ checked:
 - https://api.first.org/data/v1/teams
 - https://raw.githubusercontent.com/CVEProject/cve-website/dev/src/assets/data/CNAsList.json
 - https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+- https://api.fda.gov/device/classification.json
