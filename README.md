@@ -64,46 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-This is a repository for tracking the APIs, SDKs, and other developer resources for Hologic.
+Hologic, Inc. (NASDAQ: HOLX) is a global medical technology company focused on women's health, headquartered in Marlborough, Massachusetts. It develops, manufactures and supplies diagnostic products, medical imaging systems and GYN surgical solutions across four businesses: Breast Health, Diagnostic Solutions, GYN Surgical Solutions and Skeletal Health. Its products are FDA-cleared or CE-marked medical devices for trained healthcare professionals, and integration happens at the device — DICOM network services and HL7 feeds into RIS, PACS and LIS — rather than through a public web API. Hologic publishes no developer portal, OpenAPI or SDK; the contracts it does publish are per-product DICOM Conformance Statements and MDS2 security disclosure forms, both as PDF.
 
-## APIs
+**Areas:** Fortune 1000 · Healthcare · Medical Devices · Medical Imaging · Diagnostics · Women's Health · DICOM · Life Sciences
 
-Hologic publishes **no public web API**, no developer portal, no OpenAPI/GraphQL/AsyncAPI
-specification, no SDK on any package registry, and no MCP server or A2A agent card. This was
-established by probing nineteen Hologic-controlled hosts on 2026-09-13 — see
-`x-contract-discovery` in `apis.yml` for the full probe record.
+## Hologic on APIs.io
 
-That is the expected shape for a medical device manufacturer. Hologic's integration contract is
-**DICOM**, published per product as a Conformance Statement, plus HL7 v2 feeds into RIS/HIS/LIS.
-Those statements are public and real — the Selenia Dimensions / 3Dimensions Acquisition Workstation
-statement (MAN-05763) declares Modality Worklist FIND, MPPS, Storage, Storage Commitment Push Model,
-Study Root Query/Retrieve FIND and MOVE, Print and Verification under the DICOM UID root
-`1.2.840.10008` — but they ship as PDF, so no machine can read them.
+Everything profiled for Hologic is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hologic/](https://apis.io/providers/hologic/)** — or go straight to one of the APIs or properties below.
 
-## What this repository does hold
+### Published properties
 
-| Artifact | What it is |
-|---|---|
-| `llms/hologic-llms.txt` | Hologic's own `llms.txt`, served at https://www.hologic.com/llms.txt (HTTP 200, 24,799 bytes) and saved verbatim. 18 sections, 154 linked resources. |
-| `well-known/` | The `/.well-known/` probe across nine hosts, plus the one document served: a valid OpenID Connect discovery document at `support.hologic.com`. |
-| `authentication/` + `scopes/` | The OIDC/OAuth profile that document describes — Salesforce Experience Cloud running under Hologic's issuer, for support-community sign-in, not an API product. |
-| `conformance/` | DICOM, HL7, MDS2 and the OAuth/OIDC RFC set, each with a fetched evidence URL and status. |
-| `security/` | The Coordinated Vulnerability Disclosure Policy (`CoordinatedVulnerability@hologic.com`, PGP key published), the product-security hub that stands in for a trust center, and the domain security probe. |
-| `lifecycle/` | The Hologic Imaging Product Obsolescence & End-of-Life Guide — the device-industry deprecation contract, dated per product. |
-| `packages/` · `plans/` | Measured zeros: no client library on any registry, no published pricing. |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Properties
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hologic Authentication](https://apis.io/security/hologic/hologic-authentication/)
+- [Hologic Domain Security](https://apis.io/security/hologic/hologic-domain-security/)
+- [Hologic Trust Center](https://apis.io/security/hologic/hologic-trust-center/)
+- [Hologic Vulnerability Disclosure](https://apis.io/security/hologic/hologic-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Hologic Scopes](https://apis.io/scopes/hologic/hologic-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hologic Plans Pricing](https://apis.io/plans/hologic/hologic-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.hologic.com)
 - [Support](https://www.hologic.com/support)
-- [Support Community Sign-in](https://support.hologic.com/s/login/)
-- [Newsroom](https://www.hologic.com/about/newsroom)
-- [Coordinated Vulnerability Disclosure](https://www.hologic.com/security/coordinated-vulnerability-disclosure-policy)
-- [Breast & Skeletal Products Cybersecurity](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity)
-- [MDS2 Forms](https://www.hologic.com/support/usa/Breast-Skeletal-Products-Cybersecurity/MDS2-forms)
-- [Product Obsolescence & End-of-Life Guide](https://www.hologic.com/end-of-life)
-- [Package Inserts & IFUs](https://www.hologic.com/package-inserts)
-- [Terms and Conditions](https://www.hologic.com/terms-conditions)
-- [Privacy Policy](https://www.hologic.com/privacy-policy)
-- [GitHub (Breast & Skeletal Health Division)](https://github.com/Hologic-BSHS)
-- [LinkedIn](https://www.linkedin.com/company/hologic)
+- [Blog](https://www.hologic.com/about/newsroom)
+- [Terms of service](https://www.hologic.com/terms-conditions)
+- [Privacy policy](https://www.hologic.com/privacy-policy)
+- [GitHub](https://github.com/Hologic-BSHS)
+
+## API Evangelist rating
+
+**Kin Score 25.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 35.5 |
+
+**Agent readiness 15.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 41.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hologic/](https://apis.io/providers/hologic/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hologic: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hologic/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
