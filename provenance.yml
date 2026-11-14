@@ -8,6 +8,12 @@ artifacts:
   conformance/hologic-conformance.yml:
     method: searched
     evidence: declared in the artifact
+  data-license/hologic-data-license.yml:
+    method: harvested
+    evidence: declared in the artifact
+  eligibility/hologic-eligibility.yml:
+    method: harvested
+    evidence: declared in the artifact
   front-door-ai/2026-09-17.yml:
     method: unknown
     evidence: no authorship recorded
@@ -15,6 +21,9 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   heartbeat/2026-11-06.yml:
+    method: unknown
+    evidence: no authorship recorded
+  heartbeat/2026-11-13.yml:
     method: unknown
     evidence: no authorship recorded
   integrations/_index.yml:
@@ -26,7 +35,7 @@ artifacts:
   kin/checks-2026-10-23T222754.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
-  kin/checks-2026-11-02T082323.yml:
+  kin/checks-2026-11-06T143934.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-09-23T000603.yml:
@@ -92,6 +101,9 @@ artifacts:
   kin/score-2026-11-02T082323.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-11-06T143934.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
   lifecycle/hologic-lifecycle.yml:
     method: searched
     evidence: declared in the artifact
@@ -119,6 +131,9 @@ artifacts:
   press/2026-05-25-05-hologic-ai-powered-cervical-cancer-screening-for-all.md:
     method: unknown
     evidence: no authorship recorded
+  privacy/hologic-privacy-policy.yml:
+    method: harvested
+    evidence: declared in the artifact
   scopes/hologic-scopes.yml:
     method: unknown
     evidence: no authorship recorded
@@ -145,6 +160,9 @@ artifacts:
     evidence: declared in the artifact
   security/hologic-vulnerability-disclosure.yml:
     method: searched
+    evidence: declared in the artifact
+  terms/hologic-terms-of-service.yml:
+    method: harvested
     evidence: declared in the artifact
   well-known/hologic-openid-configuration.json:
     method: unknown
